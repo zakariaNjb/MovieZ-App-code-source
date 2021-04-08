@@ -1,0 +1,44 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #E3E2F2;
+    height: 100%;
+    font-family: 'Redressed', cursive;
+}
+
+#root {
+    height: 100%;
+}
+
+.App {
+    color: #f50056ab;
+    background-color: #111011;
+    position: relative;
+    box-shadow: 1px 1px 8px black;
+    color: snow;
+    border-radius: 10px;
+    margin: auto;
+    top: 5%;
+    height: 90%;
+    width: 80%;
+}
+
+
+/*********Media queries*********/
+
+@media screen and (max-width:1000px) {
+    .App {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:558px) {
+    .App {
+        border-radius: 0px;
+        top: 0%;
+        height: 100%;
+        width: 100%;
+    }
+}
